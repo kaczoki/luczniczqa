@@ -17,4 +17,4 @@ Then specify Maven project names (packages etc)
 
 Usage:
 Execute Performance Scenario script
-    $mvn gatling:test -Dgatling.simulationClass=rage.<name>
+    $mvn gatling:test -Dgatling.simulationClass=<package>.<name>
