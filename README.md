@@ -6,8 +6,8 @@ Prerequisites
 
 Setup:
 Execute following Maven command:
-
-$mvn archetype:generate
+    
+    $mvn archetype:generate
 
 “Choose a number or apply filter”: “gatling”
 “Choose a number or apply filter” (again): “1”
@@ -17,4 +17,5 @@ Then specify Maven project names (packages etc)
 
 Usage:
 Execute Performance Scenario script
+
     $mvn gatling:test -Dgatling.simulationClass={package}.{name}
